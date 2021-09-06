@@ -1,0 +1,267 @@
+
+@media screen and (max-width : 400px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .right{
+        transform: translateY(-600px);
+        width: 100vw;
+        height: 170vh;
+    }
+    .h1 img{
+        position :relative;
+        transform: translateX(-200px);
+        width : 350px;
+        height: 200px;
+    }
+    .big{
+        transform: translate(25px,-70px);
+    }
+    .grey{
+        transform: translate(20px,-60px);
+        font-size: large;
+        font-weight: normal;
+    }
+    .right2{
+        display: none;
+    }
+    body{
+        flex-direction: column;
+        justify-content: center;
+        width: 100vw;
+        height: 260vh;
+
+    }
+    .left{
+        width: 100vw;
+        height: 50px;
+    }
+    .findhome{
+        transform: translate(80px,-470px);
+        width: 100vw;
+        height: 60px;
+        background-color: white;
+    }
+    .hide{
+        display: none;
+    }
+    .profile{
+        display: none;
+    }
+    .part2{
+        transform: translate(-130px,470px);
+
+    }
+    .find{
+        font-weight: normal;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .box2{
+        transform: translate(150px,400px);
+        width: 180px;
+        height: 250px;
+        font-weight: lighter;
+        justify-content: space-between;
+    }
+    li{
+        font-size: xx-small;
+        position: sticky;
+    }
+    .setting{
+        display: none;
+    }
+    .slider{
+        width: 70vw;
+        height:60px;
+        transform: translate(200px,120px);
+        padding-left: 60px;
+    }
+    
+    .inside1{
+        transform: translate(50px,150px);
+        padding: 10px;
+    }
+    .item1{
+        width: 60px;
+        height: 80px;
+    }
+    .inside2{
+        transform: translate(-150px,420px);
+
+    }
+    .table{
+        transform: translate(25px,440px);
+        overflow: hidden;
+        font-size: x-large;
+
+    }
+    .overview{
+        padding-left: 35px;
+        padding-right: 50px;
+        
+    }
+    .overview:hover{
+        color: blue;
+    }
+    .detail{
+        padding-right: 50px;
+    }
+    .paragraph{
+        transform: translate(15px,380px);
+        font-family: syistem-ui;
+    }
+    .tour{
+        padding-right: 15px;
+    }
+    .price{
+        padding: 8px;
+    }
+    .contactbook{
+        transform: translateY(320px);
+        display: flex;
+        justify-content: space-around;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .contact{
+        font-size: medium;
+        width: 250px;
+        height: 50px;
+    }
+
+    .book{
+        padding-right: 20px;
+        font-size: medium;
+        width: 250px;
+        height: 50px;
+    }    
+}
+@media  screen and (max-width: 500px) and (min-width: 400px) {
+    body{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .right2{
+        display: none;
+    }
+    .findhome{
+        transform: translate(-90px,-280px);
+    }  
+    ul{
+        flex-direction: row;
+        transform: translateY(1850px);
+    } 
+    li{
+        font-size: x-small;
+        display: none;
+    }
+    .box2{
+        transform: translate(-20px,900px);
+        width: 200px;
+    }
+    .right{
+        transform: translate(30px,-700px);
+        width: 400px;
+        height: 200vh;
+    }
+    .heading{
+        transform: translateY(40px);
+    }
+    .grey{
+        font-size: large;
+    }
+    .hide{
+        display: none;
+    }
+    .profile{
+        display: none;
+    }
+    .part1{
+        transform: translateY(-10px);   
+    }
+    .part2{
+        transform: translate(-160px,480px);
+    }
+    .big{
+        width: 250px;
+    }
+    .slider{
+        width: 70vw;
+        height:60px;
+        transform: translate(180px,120px);
+        padding-left: 60px;
+    }
+    .h1 img{
+        position :relative;
+        transform: translateX(-200px);
+        width : 350px;
+        height: 200px;
+    }
+    .card{
+        transform: translate(30px,150px);
+    }
+    .inside1{
+        transform: translateX(20px);
+    }
+    .inside2{
+        transform: translate(-200px,250px);
+    }
+    .table{
+        transform: translate(10px,400px);
+
+    }
+    .paragraph{
+        transform: translateY(400px);
+    }
+    .contactbook{
+        transform: translateY(400px);
+        width: 300px;
+        padding:10px ;
+        justify-content: space-between;
+    }
+    .contact{
+        height: 50px;
+        width: 300px;
+    }
+    .book{
+        height: 50px;
+        width: 300px;
+    }
+    .overview{
+        padding-left: 45px;
+        padding-right: 60px;
+        
+    }
+    .detail{
+        padding-right: 60px;
+    }
+    .paragraph{
+        transform: translate(15px,380px);
+        font-family: syistem-ui;
+    }
+    .tour{
+        padding-left: 10px;
+        padding-right: 25px;
+    }
+    .price{
+        padding: 10px;
+    }
+    .overview:hover{
+        color: blue;
+    }
+    .detail:hover{
+        color: blue;
+    }
+    .price:hover{
+        color: blue;
+    }
+    .tour:hover{
+        color: blue;
+    }
+    
+}
+
