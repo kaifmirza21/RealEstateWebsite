@@ -1,0 +1,262 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+}
+
+header {
+    width: 20vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+}
+
+li {
+    padding: 30px;
+    font-size: xx-large;
+    color: grey;
+    font-weight: bold;
+    list-style-type: none;
+}
+.right2{            
+    width: 40vw;
+    height: 140vh;
+}       
+
+.right {
+    width: 40vw;
+    height: 140vh;
+    overflow: hidden;
+    margin-right: 30px;
+}
+
+.box1 {
+    margin-top: 80px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: larger;
+    transform: translateY(120px);
+    padding-left: 70px;
+}
+
+.box2 {
+    background-color: #0e3dda;
+    color: white;
+    margin: 30px 60px;
+    width: 12vw;
+    height: 35vh;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    transform: translateY(150px);
+    font-size: xx-large;
+
+}
+
+.search {
+    background-color: rgb(252, 249, 249);
+    color: black;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    width: 150px;
+    height: 60px;
+    font-weight: bold;
+}
+
+
+
+
+.slider {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(60px);
+    position: relative;
+    /* animation: image  20s 10s infinite ; */
+
+}
+
+
+.find {
+    color: white;
+    padding-left: 30px;
+    font-size: xx-large;
+    font-weight: bold;
+}
+.search{
+    width: 150px;
+    height: 60px;
+    font-weight: bold;
+}
+
+
+.grey {
+    color: grey;
+    font-size: x-large;
+}
+
+.h1 {
+    padding: 20px;
+    border-radius: px;
+}
+.container{
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(45px);
+}
+.part1{
+    transform: translateY(30px);
+
+}
+.part2 {
+    color: blue;
+    transform: translateX(-20px);
+    transform: translateY(30px);
+    font-size: xx-large;
+}
+.heading{
+    font-size: x-large;
+    transform: translateX(-15x);
+    transform: translateY(70px);
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.part1 big{
+    font-size: xx-large;
+}
+.profile{
+    transform: translateY(40px);
+    font-size: x-large;
+    text-align: center;
+}
+.card{
+    display: flex;
+    justify-content: space-around;
+} 
+.inside1{
+    padding: 10px;
+    width: 40vw;
+    height: 20vh;
+    display: flex;
+    flex-direction: row;
+}
+.inside2{
+    display: flex;
+    padding: 25px;
+    justify-content: center;
+
+    
+}
+.item{
+    padding: 10px;
+    border-radius: 20px;
+}
+.item1{
+    border: 2px solid grey;
+    width:70px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+.table{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 25px;
+    font-size: x-large;
+    color: grey;
+}
+.overview:hover{
+    color: blue;
+}
+.detail:hover{
+    color: blue;
+}
+.tour:hover{
+    color: blue;
+}
+.price:hover{
+    color: blue;
+}
+.contactbook{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contact{
+    width: 270px;
+    height: 70px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid grey;
+    font-weight: bold;
+    font-size: x-large;
+}
+.book{
+    background-color: #0e3dda;
+    width: 270px;
+    height: 70px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    color: white;
+    font-weight: bold;
+}
+.paragraph{
+    padding-bottom: 20px;
+}
+li:hover{
+    background-color: rgb(195, 204, 204);
+    width: 160px;
+    height: 6px;
+    display: flex;
+    align-items: center;
+    color: black;
+    border-radius: 15px;
+}
+
+input{
+    transform: translate(300px , 80px);
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+}
+.findhome{
+    color: blue;
+    font-size: xx-large;
+    font-weight: bold;
+    padding-left: 30px;
+
+}
